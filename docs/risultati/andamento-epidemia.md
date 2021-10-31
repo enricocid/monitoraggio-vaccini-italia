@@ -18,7 +18,7 @@ _Incidenza_: rapporto tra la numerosità dell'evento considerato e la popolazion
 
 ---
 
-## Incidenze settimanali
+## Incidenze mensili
 
 <img src="https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/risultati/andamento_epidemia.png?raw=true"/>
 
@@ -28,6 +28,6 @@ _Incidenza_: rapporto tra la numerosità dell'evento considerato e la popolazion
 <img src="https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/risultati/andamento_epidemia_num_assoluti.png?raw=true"/>
 
 
-## Rapporti tra le incidenze
+## Rapporto fra le incidenze (non vaccinati/vaccinati)
 
 <img src="https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/risultati/rapporto_tra_tassi.png?raw=true"/>

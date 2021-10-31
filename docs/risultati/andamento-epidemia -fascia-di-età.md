@@ -15,22 +15,22 @@ parent: Risultati
 
 ---
 
-## Incidenza casi
+## Casi
 
 <img src="https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/risultati/andamento_fasce_età_casi.png?raw=true"/>
 
 
-## Incidenza ospedalizzazioni
+## Ospedalizzazioni
 
 <img src="https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/risultati/andamento_fasce_età_ospedalizzati.png?raw=true"/>
 
 
-## Incidenza terapie intensive
+## Terapie intensive
 
 <img src="https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/risultati/andamento_fasce_età_ricoveratiTI.png?raw=true"/>
 
 
-## Incidenza decessi
+## Decessi
 
 
 <img src="https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/risultati/andamento_fasce_età_decessi.png?raw=true"/>
