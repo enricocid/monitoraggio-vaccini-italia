@@ -4,6 +4,17 @@ title: Configurazione
 nav_order: 2
 ---
 
+# Configurazione
+{: .no_toc }
+
+## Indice
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
 ### Utilizzo repository e dipendenze
 
 Monitoraggio vaccini Italia utilizza **[Python 3.7](https://docs.python.org/3.7/using/index.html)** per recuperare ed analizzare automaticamente i dati dai report ISS.
@@ -28,7 +39,7 @@ git push origin [nome_nuovo_branch]
 ```
 
 
-### Utilizzo script
+### Utilizzo e spiegazione script
 
 Nel repository vengono utilizzati i dati rilasciati nei [report settimanali](https://www.epicentro.iss.it/coronavirus/aggiornamenti) dell'Istituto Superiore di Sanità come ad es. [Bollettino-sorveglianza-integrata-COVID-19_8-settembre-2021.pdf](https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_8-settembre-2021.pdf)
 
@@ -40,7 +51,7 @@ I dati possono essere analizzati mediante i seguenti script:
 
 2. [scripts/andamento_rapporti_incidenze.py](https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/scripts/andamento_rapporti_incidenze.py): calcola il contributo dei non vaccinati rispetto all’incidenza totale nelle varie fasce di età.
 
-3. [scripts/confronti_internazionali.py](https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/scripts/confronti_internazionali.py): aggiorna gli andamenti delle curve epidemiologiche e delle vaccinazioni di vari Paesi esteri.
+3. [scripts/confronti_europei.py](https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/scripts/confronti_internazionali.py): aggiorna gli andamenti delle curve epidemiologiche e delle vaccinazioni dei paesi dell'Eurozona.
 
 4. [scripts/confronto_2020_2021.py](https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/scripts/confronto_2020_2021.py): restituisce gli andamenti delle curve epidemiche 2020 e 2021. Per il 2021 vengono mostrate separatamente le curve dei vaccinati e dei non vaccinati.
 
