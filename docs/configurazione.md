@@ -57,7 +57,7 @@ I dati possono essere analizzati mediante i seguenti script:
 
 5. [scripts/efficacia_vaccini.py](https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/scripts/efficacia_vaccini.py): calcola i tassi di contagio relativi all'ultimo report dell'ISS, dividendo i dati in 4 fasce d'età e in 2 categorie (vaccinati e non vaccinati). Ciò permette di calcolare le incidenze per ogni fascia d'età e di valutare correttamente l'efficacia dei vaccini nel prevenire il contagio, l'ospedalizzazione, il ricovero in terapia intensiva e il decesso.
 
-Per eseguire un aggiornamento generale, utilizzare il comando dalla directory principale:
+Per eseguire un aggiornamento generale, utilizzare il seguente comando dalla directory principale:
 ```bash
 ./update_all.sh
 ```
