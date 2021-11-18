@@ -18,7 +18,9 @@ nav_order: 2
 ### Utilizzo repository e dipendenze
 
 Monitoraggio vaccini Italia utilizza **[Python 3.7](https://docs.python.org/3.7/using/index.html)** per recuperare ed analizzare automaticamente i dati rilasciati nei [report settimanali](https://www.epicentro.iss.it/coronavirus/aggiornamenti) dell'Istituto Superiore di Sanità come ad es.:
-> [Bollettino-sorveglianza-integrata-COVID-19_8-settembre-2021.pdf](https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_8-settembre-2021.pdf)
+<p align="center">
+  <a href="https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_10-novembre-2021.pdf">Bollettino-sorveglianza-integrata-COVID-19_10-novembre-2021.pdf</a>
+</p>
 
 1. Per cominciare clona il repository tramite il seguente comando:
 ```
@@ -43,7 +45,7 @@ git push origin [nome_nuovo_branch]
 
 ### Utilizzo e spiegazione script
 
-Lo script [dati/dati_selezione.py](https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/dati/dati_selezione.py) estrae i dati per l'analisi (tabella n.3) a partire dal report selezionato. I dati vengono salvati in [dati/dati_ISS_complessivi.csv](https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/dati/dati_ISS_complessivi.csv) e [dati/data_iss_età_YY-MM-D.csv](https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/dati/data_iss_età_2021-11-10.csv). Lo script è stato aggiornato il [10/11/2021](https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_10-novembre-2021.pdf) per includere i vaccinati con dose aggiuntiva. Per i report precedenti a questa data utilizzare lo script [dati/dati_selezione_old.py](https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/dati/dati_selezione_old.py) e [dati/dati_ISS_complessivi_old.csv](https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/dati/dati_ISS_complessivi_old.csv).
+Lo script [**dati/dati_selezione.py**](https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/dati/dati_selezione.py) estrae i dati per l'analisi (tabella n.3) a partire dal report selezionato. I dati vengono salvati in [dati/dati_ISS_complessivi.csv](https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/dati/dati_ISS_complessivi.csv) e [dati/data_iss_età_YY-MM-D.csv](https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/dati/data_iss_età_2021-11-10.csv). Lo script è stato aggiornato il [10/11/2021](https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_10-novembre-2021.pdf) per includere i vaccinati con dose aggiuntiva. Per i report precedenti a questa data utilizzare lo script [dati/dati_selezione_old.py](https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/dati/dati_selezione_old.py) e [dati/dati_ISS_complessivi_old.csv](https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/dati/dati_ISS_complessivi_old.csv).
 Sono necessari ghostscript e tkinker per il corretto funzionamento di [camelot](https://camelot-py.readthedocs.io/en/master/user/install-deps.html).
 
 I dati possono essere analizzati mediante i seguenti script:
