@@ -2,7 +2,7 @@
 layout: default
 title: About
 nav_order: 1
-description: "Repository creato con lo scopo di monitorare l'andamento dell'epidemia provocata dal virus Sars-Cov-2 in Italia e l'efficacia dei vaccini."
+description: "Repository creato con lo scopo di monitorare l'andamento dell'epidemia provocata dal virus SARS-CoV-2 in Italia e l'efficacia dei vaccini."
 permalink: /
 ---
 
