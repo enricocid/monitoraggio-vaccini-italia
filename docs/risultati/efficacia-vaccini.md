@@ -14,6 +14,11 @@ parent: Risultati
 {:toc}
 
 ---
+## Efficacia vaccini per fascia di età
+
+<img src="https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/risultati/efficacia_vaccini.png?raw=true"/>
+
+
 ## Incidenze mensili ed efficacia vaccini per fascia di età
 
 <img src="https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/risultati/tassi_efficacia.png?raw=true"/>
