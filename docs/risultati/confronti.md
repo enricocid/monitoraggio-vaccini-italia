@@ -26,6 +26,8 @@ _Fonti_: dati [John Hopkins University](https://github.com/CSSEGISandData/COVID-
 
 <img src="https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/risultati/vaccini_decessi_EU.png?raw=true"/>
 
+<img src="https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/risultati/vaccini_decessi_EU_div.png?raw=true"/>
+
 
 ## Incidenza contagi Italia, Romania, Portogallo, Spagna, Bulgaria
 _Fonti_: dati [John Hopkins University](https://github.com/CSSEGISandData/COVID-19) e [Our World in Data](https://github.com/owid/covid-19-data)
