@@ -50,17 +50,21 @@ Lo script [**`dati/dati_selezione.py`**](https://github.com/apalladi/covid_vacci
 Lo script è stato aggiornato il [10/11/2021](https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_10-novembre-2021.pdf) per includere i vaccinati con dose aggiuntiva.
 Sono necessari ghostscript e tkinker per il corretto funzionamento di [camelot](https://camelot-py.readthedocs.io/en/master/user/install-deps.html).
 
+Per gli utenti Windows: per la corretta generazione della mappa seguire le [istruzioni]({{ site.baseurl }}{% link docs/mappa_deps_win.md %}).
+
 I dati possono essere analizzati mediante i seguenti script:
 
 1. [**`scripts/andamento_epidemia.py`**:](https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/scripts/andamento_epidemia.py) calcola le curve epidemiche relative a nuovi casi, ospedalizzati, ricoverati in terapia intensiva e deceduti, divise per vaccinati e non vaccinati. Le curve epidemiche sono rapportate al numero di vaccinati e non vaccinati, in ogni intervallo temporale. In questo modo è possibile calcolare i tassi standardizzati (aggiustati per fascia di età[^2]). Data la sproporzione tra il numero di vaccinati e non vaccinati, i numeri assoluti risultano infatti poco utili per monitare l'andamento dell'epidemia.
 
-2. [scripts/andamento_rapporti_incidenze.py](https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/scripts/andamento_rapporti_incidenze.py): calcola il contributo dei non vaccinati rispetto all’incidenza totale nelle varie fasce di età.
+2. [**`scripts/andamento_rapporti_incidenze.py`**](https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/scripts/andamento_rapporti_incidenze.py): calcola il contributo dei non vaccinati rispetto all’incidenza totale nelle varie fasce di età.
 
-3. [scripts/confronti_europei.py](https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/scripts/confronti_europei.py): aggiorna gli andamenti delle curve epidemiologiche e delle vaccinazioni dei paesi dell'Eurozona.
+3. [**`scripts/confronti_europei.py`**](https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/scripts/confronti_europei.py): aggiorna gli andamenti delle curve epidemiologiche e delle vaccinazioni dei paesi dell'Eurozona.
 
-4. [scripts/confronto_2020_2021.py](https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/scripts/confronto_2020_2021.py): restituisce gli andamenti delle curve epidemiche 2020 e 2021. Per il 2021 vengono mostrate separatamente le curve dei vaccinati e dei non vaccinati.
+4. [**`scripts/confronti_europei_map.py`**](https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/scripts/confronti_europei_map.py): mappa bivariata che mette in relazione la copertura vaccinale al numero dei decessi nell'Eurozona.
 
-5. [**`scripts/efficacia_vaccini.py`**:](https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/scripts/efficacia_vaccini.py) calcola i tassi per ogni fascia di età e per stato vaccinale (vaccinati e non vaccinati) relativi all'ultimo report dell'ISS. Ciò permette di calcolare le incidenze per ogni fascia d'età e di valutare correttamente l'efficacia dei vaccini nel prevenire il contagio, l'ospedalizzazione, il ricovero in terapia intensiva e il decesso.
+5. [**`scripts/confronto_2020_2021.py`**](https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/scripts/confronto_2020_2021.py): restituisce gli andamenti delle curve epidemiche 2020 e 2021. Per il 2021 vengono mostrate separatamente le curve dei vaccinati e dei non vaccinati.
+
+6. [**`scripts/efficacia_vaccini.py`**:](https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/scripts/efficacia_vaccini.py) calcola i tassi per ogni fascia di età e per stato vaccinale (vaccinati e non vaccinati) relativi all'ultimo report dell'ISS. Ciò permette di calcolare le incidenze per ogni fascia d'età e di valutare correttamente l'efficacia dei vaccini nel prevenire il contagio, l'ospedalizzazione, il ricovero in terapia intensiva e il decesso.
 
 Per eseguire un aggiornamento generale, utilizzare il seguente comando dalla directory principale:
 ```bash

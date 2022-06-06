@@ -26,6 +26,8 @@ _Fonti_: dati [John Hopkins University](https://github.com/CSSEGISandData/COVID-
 
 <img src="https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/risultati/vaccini_decessi_EU.png?raw=true"/>
 
+<img src="https://raw.githubusercontent.com/apalladi/covid_vaccini_monitoraggio/main/risultati/vaccini_decessi_EU_map.png"/>
+
 <img src="https://github.com/apalladi/covid_vaccini_monitoraggio/blob/main/risultati/vaccini_decessi_EU_div.png?raw=true"/>
 
 
