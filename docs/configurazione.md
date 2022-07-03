@@ -19,7 +19,7 @@ nav_order: 2
 
 Monitoraggio vaccini Italia utilizza **[Python 3.7](https://docs.python.org/3.7/using/index.html)** per recuperare ed analizzare automaticamente i dati rilasciati nei [report settimanali](https://www.epicentro.iss.it/coronavirus/aggiornamenti) dell'Istituto Superiore di Sanità come ad es.:
 <p align="center">
-  <a href="https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_16-marzo-2022.pdf">Bollettino-sorveglianza-integrata-COVID-19_16-marzo-2022.pdf</a>
+  <a href="https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_28-giugno-2022.pdf">Bollettino-sorveglianza-integrata-COVID-19_28-giugno-2022.pdf</a>
 </p>
 
 1. Per cominciare clona il repository tramite il seguente comando:
